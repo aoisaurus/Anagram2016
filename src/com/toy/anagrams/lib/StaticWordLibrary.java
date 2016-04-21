@@ -141,6 +141,11 @@ final class StaticWordLibrary extends WordLibrary {
     private StaticWordLibrary() {
     }
 
+    // 取り急ぎ変更
+    public String suffle(int idx) {
+    	return "aaa";
+    }
+    
     /**
      * Gets the word at a given index.
      * @param idx index of required word
